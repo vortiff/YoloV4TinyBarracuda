@@ -12,6 +12,7 @@ sealed class Visualizer : MonoBehaviour
     [SerializeField] ResourceSet _resources = null;
     [SerializeField] RawImage _preview = null;
     [SerializeField] Marker _markerPrefab = null;
+    [SerializeField] AudioSource  audioSource;
 
     #endregion
 
@@ -48,6 +49,7 @@ sealed class Visualizer : MonoBehaviour
         {
             if (i == _markers.Length) break;
             _markers[i++].SetAttributes(d);
+            audioSource.Play();
         }
 
         for (; i < _markers.Length; i++) _markers[i].Hide();
