@@ -3,7 +3,7 @@ using Unity.Barracuda;
 
 namespace YoloV4Tiny {
 
-[CreateAssetMenu(fileName = "YoloV4Tiny",
+[CreateAssetMenu(fileName = "YoloV4Tiny",//"yolov7Tiny",
                  menuName = "ScriptableObjects/YoloV4Tiny Resource Set")]
 public sealed class ResourceSet : ScriptableObject
 {

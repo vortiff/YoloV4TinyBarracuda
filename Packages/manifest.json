@@ -9,7 +9,10 @@
     }
   ],
   "dependencies": {
+    "com.unity.barracuda": "3.0.0",
+    "com.unity.render-pipelines.universal": "12.1.7",
     "com.unity.ugui": "1.0.0",
-    "jp.keijiro.klak.testtools": "1.0.1"
+    "com.unity.visualeffectgraph": "12.1.7",
+    "jp.keijiro.klak.testtools": "1.0.4"
   }
 }
